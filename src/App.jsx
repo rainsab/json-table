@@ -1,7 +1,7 @@
 import React from 'react';
 import MainRow from './components/MainRow';
 
-function App() {
+export default function App() {
   return (
     <div className='table-responsive'>
       <table className="table table-striped">
@@ -27,8 +27,5 @@ function App() {
         </tbody>
       </table>
     </div>
-
   )
 }
-
-export default App;
