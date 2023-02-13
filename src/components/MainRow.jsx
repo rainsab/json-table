@@ -1,12 +1,12 @@
-import React, { Children } from 'react';
+import React from 'react';
 import exampleData from './example-data.json';
 import NemesisRow from './NemesisRow';
 
 export default function MainRow() {
     const rowData = exampleData.map((exampleData) => (
-        <>
-            <tr key={exampleData.data.ID}>
-                <th scope='row'>$</th>
+        <tbody key={exampleData.data.ID}>
+            <tr>
+                <th scope='row'></th>
                 <td>{exampleData.data.ID}</td>
                 <td>{exampleData.data.Name}</td>
                 <td>{exampleData.data.Gender}</td>
@@ -19,8 +19,8 @@ export default function MainRow() {
                 <td>{exampleData.data['Knows the answer?']}</td>
                 <td>X</td>
             </tr>
-            <NemesisRow id={exampleData.children.has_nemesis} />
-        </>
+            <NemesisRow nemesisData={exampleData.children.has_nemesis} />
+        </tbody>
     ))
 
     return (

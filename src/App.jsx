@@ -21,10 +21,7 @@ export default function App() {
             <th scope='col'>delete</th>
           </tr>
         </thead>
-        <tbody>
-          {/*components*/}
-          <MainRow />
-        </tbody>
+        <MainRow />
       </table>
     </div>
   )

@@ -53,23 +53,6 @@
          "Weight":"91",
          "Born":"Mon Feb 17 00:00:00 CET 1997",
          "In space since":"Wed Dec 04 04:09:55 CET 2014",
-         "Beer consumption (l/y)":"679420",
-         "Knows the answer?":"true"
-      },
-      "children":{
-
-      }
-   },
-   {
-      "data":{
-         "ID":"48",
-         "Name":"Zaphod Beeblebrox",
-         "Gender":"m",
-         "Ability":"semi_half_cousin",
-         "Minimal distance":"1.6000000000",
-         "Weight":"91",
-         "Born":"Mon Feb 17 00:00:00 CET 1997",
-         "In space since":"Wed Dec 04 04:09:55 CET 2014",
          "Beer consumption (l/y)":"679242",
          "Knows the answer?":"true"
       },
