@@ -9,3 +9,8 @@ table {
 tr, td, th {
   border: none;
 }
+
+.delete {
+  cursor: pointer;
+  margin-bottom: 0.125rem;
+}
