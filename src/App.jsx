@@ -4,7 +4,7 @@ import MainRow from './components/MainRow';
 export default function App() {
   return (
     <div className='table-responsive'>
-      <table className="table table-striped">
+      <table className='table'>
         <thead className='table-dark'>
           <tr>
             <th scope='col'></th>

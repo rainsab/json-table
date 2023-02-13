@@ -9,7 +9,7 @@ export default function NemesisRow(props) {
 
     const nemesisData = hasNemesis.records.map((data) => (
         <tbody key={data.data.ID}>
-            <tr>
+            <tr className='table-light'>
                 <th scope='row'></th>
                 <td>{data.data.ID}</td>
                 <td>{data.data['Character ID']}</td>

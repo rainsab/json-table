@@ -5,3 +5,7 @@ body {
 table {
   text-align: center;
 }
+
+tr, td, th {
+  border: none;
+}

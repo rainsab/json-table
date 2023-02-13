@@ -7,7 +7,7 @@ export default function SecreteRow(props) {
     }
     
     const secreteData = hasSecrete.records.map((data) => (
-        <tr key={data.data.ID}>
+        <tr className='table-light' key={data.data.ID}>
             <th scope='row'></th>
             <td>{data.data.ID}</td>
             <td>{data.data['Nemesis ID']}</td>

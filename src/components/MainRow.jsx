@@ -5,7 +5,7 @@ import NemesisRow from './NemesisRow';
 export default function MainRow() {
     const rowData = exampleData.map((exampleData) => (
         <tbody key={exampleData.data.ID}>
-            <tr>
+            <tr className='table-light'>
                 <th scope='row'></th>
                 <td>{exampleData.data.ID}</td>
                 <td>{exampleData.data.Name}</td>
