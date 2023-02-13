@@ -4,21 +4,21 @@ import MainRow from './components/MainRow';
 export default function App() {
   return (
     <div className='table-responsive'>
-      <table className='table'>
+      <table className='table align-middle'>
         <thead className='table-dark'>
           <tr>
             <th scope='col'></th>
-            <th scope='col'>ID</th>
-            <th scope='col'>Name</th>
-            <th scope='col'>Gender</th>
-            <th scope='col'>Ability</th>
-            <th scope='col'>Minimal distance</th>
-            <th scope='col'>Weight</th>
-            <th scope='col'>Born</th>
-            <th scope='col'>In space since</th>
-            <th scope='col'>Beer consumption (l/y)</th>
-            <th scope='col'>Knows the answer?</th>
-            <th scope='col'>delete</th>
+            <th className='align-middle' scope='col'>ID</th>
+            <th className='align-middle' scope='col'>Name</th>
+            <th className='align-middle' scope='col'>Gender</th>
+            <th className='align-middle' scope='col'>Ability</th>
+            <th className='align-middle' scope='col'>Minimal distance</th>
+            <th className='align-middle' scope='col'>Weight</th>
+            <th className='align-middle' scope='col'>Born</th>
+            <th className='align-middle' scope='col'>In space since</th>
+            <th className='align-middle' scope='col'>Beer consumption (l/y)</th>
+            <th className='align-middle' scope='col'>Knows the answer?</th>
+            <th className='align-middle' scope='col'>delete</th>
           </tr>
         </thead>
         <MainRow />

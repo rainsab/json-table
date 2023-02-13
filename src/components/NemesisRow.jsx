@@ -29,7 +29,7 @@ export default function NemesisRow(props) {
         <>
             <tr>
                 <td colSpan='6'>
-                    <table className='table'>
+                    <table className='table align-middle'>
                         <thead className='table-dark'>
                             <tr>
                                 <th scope='col'></th>

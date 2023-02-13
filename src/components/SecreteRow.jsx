@@ -24,7 +24,7 @@ export default function SecreteRow(props) {
         <>
             <tr>
                 <td colSpan='5'>
-                    <table className='table'>
+                    <table className='table align-middle'>
                         <thead className='table-dark'>
                             <tr>
                                 <th scope='col'></th>
