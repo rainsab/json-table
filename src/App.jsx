@@ -1,7 +1,14 @@
 import React from 'react';
+import exampleData from './example-data.json';
 import MainRow from './components/MainRow';
 
 export default function App() {
+  function deleteRow(event, rowID) {
+    console.log('delete', rowID)
+  }
+
+  // Bude potreba useEffect na json
+
   return (
     <div className='table-responsive'>
       <table className='table align-middle'>
@@ -21,7 +28,7 @@ export default function App() {
             <th className='align-middle' scope='col'>delete</th>
           </tr>
         </thead>
-        <MainRow />
+        <MainRow exampleData={exampleData} deleteRow={deleteRow} />
       </table>
     </div>
   )
