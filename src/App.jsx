@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import data from './example-data.json';
+import exampleData from './example-data.json';
 import MainRow from './components/MainRow';
 
 export default function App() {
-  const [exampleData, setExampleData] = useState(data);
+  const [data, setData] = useState(exampleData);
 
   function deleteRow(event, rowID) {
-    console.log('delete', rowID)
+    setData(oldData => oldData.filter(row => row.data.ID !== rowID));
   }
 
   return (
@@ -28,7 +28,7 @@ export default function App() {
             <th className='align-middle' scope='col'>delete</th>
           </tr>
         </thead>
-        <MainRow exampleData={exampleData} deleteRow={deleteRow} />
+        <MainRow data={data} deleteRow={deleteRow} />
       </table>
     </div>
   )
