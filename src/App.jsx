@@ -1,13 +1,13 @@
-import React from 'react';
-import exampleData from './example-data.json';
+import React, { useState } from 'react';
+import data from './example-data.json';
 import MainRow from './components/MainRow';
 
 export default function App() {
+  const [exampleData, setExampleData] = useState(data);
+
   function deleteRow(event, rowID) {
     console.log('delete', rowID)
   }
-
-  // Bude potreba useEffect na json
 
   return (
     <div className='table-responsive'>
